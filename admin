@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>admin</title>
+    </head>
+    <style>
+        .box{
+            background-color:burlywood;
+            width:300px;  
+        }
+        p{
+            padding:10px;
+            text-align: center;
+            font-size:15px; 
+        }
+    </style>
+<body>
+    <div class="box"> 
+        <h3>ADD BOOK</h3>
+    <p>BOOK NAME <input type="text"></p>
+    <p>PRICE <input type="number id=add price"></p>
+    <p>AUTHOR <input type="text id=add author"></p>
+    <button onclick="alert('successfully added book')">add</button>
+    </div>
+    <div class="box">
+        <h3>DELETE BOOK</h3>
+        <p>BOOK NAME <input type="text id= book name"></p>
+        <p>ID<input type="number id=delete id number"></p>
+        <p>REASON <input type="text id=reason for delete"></p>
+        <button onclick="alert('successfully deleted book')">delete</button>
+        </div>
+        <div class="box">
+            <h3>UPDATE BOOK</h3> 
+            <p>BOOK NAME <input type="text"></p>
+            <p>UP AUTHOR<input type="number"></p>
+            <p>UP MATTER<input type="text"></p>
+            <button onclick="alert('successfully updates book')">update</button>
+            </div>
+            <div class="box">
+                <h3>ISSUE BOOK</h3>
+                <p>STU NAME <input type="text"></p>
+                <p>BOOK NAME<input type="number"></p>
+                <p>BOOK ID <input type="text"></p>
+                <p>ISSUE DATE <input type="text"></p>
+                <button onclick="alert('succeessfully issued book')">submit</button>
+                </div>
+                <div class="box">
+                    <h3>upload MATIREAL</h3> 
+                    <p>YEAR <input type="number"></p>
+                    <p>SEM<input type="number"></p>
+                    <p>upload<input type="file"></p>
+                    <button onclick="alert('successfully upload book')">view</button>
+                    </div>
+    </body>
+</html>
