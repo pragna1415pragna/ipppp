@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>train</title>
+        <body>
+        <h1>train reservation system</h1>
+        <form action="sra.html">
+        <table>
+       <tr>
+        <th>available trains</td>
+        <td>date</td>
+        <td>source</td>
+        <td>destination</td> 
+        <td>start</td> 
+        <td>reached</td>
+       </tr>
+       <tr>
+        <td>peanakini</td>
+        <td>28-3-2024</td>
+        <td>chennai</td>
+        <td>kadapa</td> 
+        <td>6.00 am</td>
+        <td>1.00 pm</td> 
+        <td> <input type="submit" value="Book" ></td>
+       </tr>
+    
+       <td>hyd express</td>
+        <td>28-3-2024</td>
+        <td>chennai</td>
+        <td>ongole</td> 
+        <td>12.00 am</td>
+        <td>6.00 pm</td>
+        <td> <input …
