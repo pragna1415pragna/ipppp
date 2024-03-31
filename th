@@ -30,4 +30,11 @@
         <td>ongole</td> 
         <td>12.00 am</td>
         <td>6.00 pm</td>
-        <td> <input …
+        <td> <input type="submit" value="Book"></td>
+        </tr>
+      
+    </table>
+</form>
+        </body>
+    </head>
+</html>
