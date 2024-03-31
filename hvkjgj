@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>train</title>
+        <body >
+        <h1>train reservation system</h1>
+        <form action="booking details.php" method="post">
+    name:<br>
+    <input type="text" name="username"><br>
+    age:<br>
+    <input type="number" name="number"><br>
+    <label for="gender">gender</label><br>
+    <input type="radio" id="gender" name="gender" value="male">male<br>
+    <input type="radio" id="gender" name="gender" value="female">female<br>
+    berth performance:<br>
+    <input type="radio" id="performance" name="berth_performance" value="side lower">side lower<br>
+    <input type="radio" id="performance" name="berth_performance" value="middle">middle<br>
+    <input type="radio" id="performance" name="berth_performance" value="upper">upper<br>
+    <input type="radio" id="performance" name="berth_performance" value="side upper">side upper<br><br>
+     <input type="submit" value="proceed to pay">
+        </form>
+        </body>
+    </head>
+</html>
