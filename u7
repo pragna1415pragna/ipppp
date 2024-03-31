@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>train</title>
+        <body  align="center" >
+        <h1>train reservation system</h1>
+        <form action="file:///C:/xampp/htdocs/login/son.html">
+            username:<br>
+             <input type="text" name="username"><br>
+             password:<br>
+             <input type="number" name="number"><br>
+             <input type="submit" value="login">
+        </form>
+        </body>
+    </head>
+</html>
