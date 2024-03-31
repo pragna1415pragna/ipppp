@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>train</title>
+        <body  align="center" >
+        <h1>train reservation system</h1>
+        <a href="pra.html">login</a>
+        </body>
+    </head>
+</html>
